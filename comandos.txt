@@ -1,0 +1,21 @@
+-- Configuração do GIT
+git config --global user.name lucasSouza225
+git config --global user.email lucas2469y@gmail.com
+
+-- Criar o projeto MVC
+dotnet new mvc -o GCook
+
+cd GCook
+dotnet watch run
+
+-- Pacotes
+dotnet add package Microsoft.EntityFrameworkCore --version 9.0.9
+dotnet add package Microsoft.EntityFrameworkCore.Design --version 9.0.9
+dotnet add package Microsoft.EntityFrameworkCore.Tools --version 9.0.9
+dotnet add package Microsoft.AspNetCore.Identity.EntityFrameworkCore --version 9.0.9
+dotnet add package Pomelo.EntityFrameworkCore.MySql --version 9.0.0
+
+dotnet add package Microsoft.EntityFrameworkCore.SqlServer --version 9.0.9
+dotnet add package Microsoft.VisualStudio.Web.CodeGeneration.Design --version 9.0.0
+
+-- Criação da Camada de Dados
