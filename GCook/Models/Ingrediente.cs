@@ -1,7 +1,7 @@
 using System.ComponentModel.DataAnnotations;
 
 namespace GCook.Models;
-public class Ingredientes
+public class Ingrediente
 {
     [Key]
     public int Id { get; set; }

@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.SignalR.Protocol;
 
 namespace GCook.Models;
 
-public class Receitas
+public class Receita
 {
     [Key]
     public int Id { get; set; }
@@ -18,7 +18,7 @@ public class Receitas
 
     [StringLength(100)]
     [Required(ErrorMessage = "O Nome é obrigatório")]
-    public int Nome { get; set; }
+    public string Nome { get; set; }
 
     [StringLength(1000)]
     [Display(Name = "Descrição")]
@@ -26,9 +26,9 @@ public class Receitas
 
     [StringLength(30)]
     [Display(Name = "Tempo de Preparo")]
-    public int TempoPreparo { get; set; }
+    public string TempoPreparo { get; set; }
     
-    public int Rendiemnto { get; set; }
+    public int Rendimento { get; set; }
 
     public Dificuldade Dificuldade { get; set; }
 
