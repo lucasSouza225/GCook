@@ -19,3 +19,8 @@ dotnet add package Microsoft.EntityFrameworkCore.SqlServer --version 9.0.9
 dotnet add package Microsoft.VisualStudio.Web.CodeGeneration.Design --version 9.0.0
 
 -- Criação da Camada de Dados
+
+
+-- Senha 
+UserName admin@gcook.com
+ "@Etec123"
